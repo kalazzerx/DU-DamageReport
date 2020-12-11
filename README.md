@@ -1,10 +1,10 @@
-### This project has been closed as I am not agreeing at all to the way NovaQuark (the developer/publisher of Dual Universe) is handling their customer support as well as their communication towards their community. I uninstalled the game and will not return.
+### This is a fork of the original no longer supported project - https://github.com/DorianTheGrey/DU-DamageReport
 
-### I leave the script for others to download, use, alter (under GNU Public License 3.0). Please do not contact me for support.
+### Per original author licensing under GNU Public License 3.0
 
 ![Standard View](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/DR_Logo1.png)
 
-# Damage Report v3.13 (DU-DamageReport)
+# Damage Report v3.14 (DU-DamageReport)
 
 ### A multi-screen (and HUD) capable, touch enabled, easy to install ship damage reporting script for **Dual Universe**.
 
@@ -14,7 +14,7 @@
 
 Very soon we will be linking a YouTube video here explaning the installation and usage of the script in detail. For now please see the installation and usage description below the following screenshots, as well as a note about the roadmap and known issues.
 
-*Created By Dorian Gray*
+*Originally Created By Dorian Gray*
 
 *Thanks to NovaQuark for creating the best MMO of the century. Thanks to Jericho, Dmentia and Archaegeo from DU Open Source Initiative for learning a lot about DU LUA from their fine scripts. Thanks to TheBlacklist for his testing and his many wonderful suggestions. SVG patterns by Hero Patterns. DU atlas data from Jayle Break.*
 
