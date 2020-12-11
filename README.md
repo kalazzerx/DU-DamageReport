@@ -2,7 +2,7 @@
 
 ### Per original author licensing under GNU Public License 3.0
 
-![Standard View](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/DR_Logo1.png)
+![Standard View](https://github.com/kalazzerx/DU-DamageReport/blob/main/img/DR_Logo1.png)
 
 # Damage Report v3.14 (DU-DamageReport)
 
@@ -18,13 +18,13 @@ Very soon we will be linking a YouTube video here explaning the installation and
 
 *Thanks to NovaQuark for creating the best MMO of the century. Thanks to Jericho, Dmentia and Archaegeo from DU Open Source Initiative for learning a lot about DU LUA from their fine scripts. Thanks to TheBlacklist for his testing and his many wonderful suggestions. SVG patterns by Hero Patterns. DU atlas data from Jayle Break.*
 
-![1a](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/1a.png)
-![1](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/1.png)
-![2](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/2.png)
-![3](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/3.png)
-![4](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/4.png)
-![5](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/5.png)
-![6](https://github.com/DorianTheGrey/DU-DamageReport/blob/main/img/6.png)
+![1a](https://github.com/kalazzerx/DU-DamageReport/blob/main/img/1a.png)
+![1](https://github.com/kalazzerx/DU-DamageReport/blob/main/img/1.png)
+![2](https://github.com/kalazzerx/DU-DamageReport/blob/main/img/2.png)
+![3](https://github.com/kalazzerx/DU-DamageReport/blob/main/img/3.png)
+![4](https://github.com/kalazzerx/DU-DamageReport/blob/main/img/4.png)
+![5](https://github.com/kalazzerx/DU-DamageReport/blob/main/img/5.png)
+![6](https://github.com/kalazzerx/DU-DamageReport/blob/main/img/6.png)
 
 ### Important Notes
 
@@ -38,7 +38,7 @@ Having said all of this, I successfully used the script on a 1100 element L core
 2. Place a Progamming Board and a databank on your ship.
 3. Link the Programming Board to your ships core, then link the Programming Board to the databank, then link the Programming Board to your screen. You can link it to more than one screens, but I highly recommend you start with 1-3 screens only as adding more screens will most probably will make you run into script shutdowns due to the CPU limit.
 4. [Optionally] You can run the script without connecting any screens at all, but you will only be able to use the "HUD Mode" and will miss out on most features of the script.
-5. Copy the latest config file of https://github.com/DorianTheGrey/DU-DamageReport, it's called "DamageReport_X_XX.conf". Click on the file, click on "Raw", copy everything. (This is the latest file: https://raw.githubusercontent.com/DorianTheGrey/DU-DamageReport/main/DamageReport_3_11.conf)
+5. Copy the latest config file of https://github.com/kalazzerx/DU-DamageReport, it's called "DamageReport_X_XX.conf". Click on the file, click on "Raw", copy everything. (This is the latest file: https://raw.githubusercontent.com/kalazzerx/DU-DamageReport/main/DamageReport_3_14.conf)
 6. Rightclick on your Programming Board -> Advanced -> Paste LUA configuation from clipboard.
 7. Activate Programming Board.
 8. Rightclick on your programming board -> advanced -> edit lua parameters. Here you can enter the name of your ship. **Do not remove the quotation marks.**
