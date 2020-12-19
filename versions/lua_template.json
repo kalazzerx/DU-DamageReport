@@ -1,0 +1,436 @@
+{
+  "slots": {
+    "0": {
+      "name": "slot1",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "1": {
+      "name": "slot2",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "2": {
+      "name": "slot3",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "3": {
+      "name": "slot4",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "4": {
+      "name": "slot5",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "5": {
+      "name": "slot6",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "6": {
+      "name": "slot7",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "7": {
+      "name": "slot8",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "8": {
+      "name": "slot9",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "9": {
+      "name": "slot10",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "-1": {
+      "name": "unit",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "-2": {
+      "name": "system",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    },
+    "-3": {
+      "name": "library",
+      "type": {
+        "events": [],
+        "methods": []
+      }
+    }
+  },
+  "handlers": [
+    {
+      "code": "CheckClick(x, y)",
+      "filter": {
+        "args": [
+          {
+            "variable": "*"
+          },
+          {
+            "variable": "*"
+          }
+        ],
+        "signature": "mouseDown(x,y)",
+        "slotKey": "2"
+      },
+      "key": "0"
+    },
+    {
+      "code": "CheckClick(x, y)",
+      "filter": {
+        "args": [
+          {
+            "variable": "*"
+          },
+          {
+            "variable": "*"
+          }
+        ],
+        "signature": "mouseDown(x,y)",
+        "slotKey": "3"
+      },
+      "key": "1"
+    },
+    {
+      "code": "CheckClick(x, y)",
+      "filter": {
+        "args": [
+          {
+            "variable": "*"
+          },
+          {
+            "variable": "*"
+          }
+        ],
+        "signature": "mouseDown(x,y)",
+        "slotKey": "4"
+      },
+      "key": "2"
+    },
+    {
+      "code": "CheckClick(x, y)",
+      "filter": {
+        "args": [
+          {
+            "variable": "*"
+          },
+          {
+            "variable": "*"
+          }
+        ],
+        "signature": "mouseDown(x,y)",
+        "slotKey": "5"
+      },
+      "key": "3"
+    },
+    {
+      "code": "CheckClick(x, y)",
+      "filter": {
+        "args": [
+          {
+            "variable": "*"
+          },
+          {
+            "variable": "*"
+          }
+        ],
+        "signature": "mouseDown(x,y)",
+        "slotKey": "6"
+      },
+      "key": "4"
+    },
+    {
+      "code": "CheckClick(x, y)",
+      "filter": {
+        "args": [
+          {
+            "variable": "*"
+          },
+          {
+            "variable": "*"
+          }
+        ],
+        "signature": "mouseDown(x,y)",
+        "slotKey": "7"
+      },
+      "key": "5"
+    },
+    {
+      "code": "CheckClick(x, y)",
+      "filter": {
+        "args": [
+          {
+            "variable": "*"
+          },
+          {
+            "variable": "*"
+          }
+        ],
+        "signature": "mouseDown(x,y)",
+        "slotKey": "8"
+      },
+      "key": "6"
+    },
+    {
+      "code": "CheckClick(x, y)",
+      "filter": {
+        "args": [
+          {
+            "variable": "*"
+          },
+          {
+            "variable": "*"
+          }
+        ],
+        "signature": "mouseDown(x,y)",
+        "slotKey": "9"
+      },
+      "key": "7"
+    },
+    {
+      "code": "[[LUA1]]",
+      "filter": {
+        "args": [],
+        "signature": "start()",
+        "slotKey": "-1"
+      },
+      "key": "8"
+    },
+    {
+      "code": "SaveToDatabank()\nSwitchScreens(\"off\")",
+      "filter": {
+        "args": [],
+        "signature": "stop()",
+        "slotKey": "-1"
+      },
+      "key": "9"
+    },
+    {
+      "code": "OnTickData()\n",
+      "filter": {
+        "args": [
+          {
+            "value": "UpdateData"
+          }
+        ],
+        "signature": "tick(timerId)",
+        "slotKey": "-1"
+      },
+      "key": "10"
+    },
+    {
+      "code": "ToggleHighlight()",
+      "filter": {
+        "args": [
+          {
+            "value": "UpdateHighlight"
+          }
+        ],
+        "signature": "tick(timerId)",
+        "slotKey": "-1"
+      },
+      "key": "11"
+    },
+    {
+      "code": "[[LUA2]]",
+      "filter": {
+        "args": [],
+        "signature": "start()",
+        "slotKey": "-1"
+      },
+      "key": "12"
+    },
+    {
+      "code": "ActionUp()",
+      "filter": {
+        "args": [
+          {
+            "value": "up"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "13"
+    },
+    {
+      "code": "ActionDown()",
+      "filter": {
+        "args": [
+          {
+            "value": "down"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "14"
+    },
+    {
+      "code": "ActionStrafeLeft()",
+      "filter": {
+        "args": [
+          {
+            "value": "strafeleft"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "15"
+    },
+    {
+      "code": "ActionStrafeRight()",
+      "filter": {
+        "args": [
+          {
+            "value": "straferight"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "16"
+    },
+    {
+      "code": "KeyCTRLPressed = true",
+      "filter": {
+        "args": [
+          {
+            "value": "brake"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "17"
+    },
+    {
+      "code": "KeyCTRLPressed = false",
+      "filter": {
+        "args": [
+          {
+            "value": "brake"
+          }
+        ],
+        "signature": "actionStop(action)",
+        "slotKey": "-2"
+      },
+      "key": "18"
+    },
+    {
+      "code": "ActionOption1()",
+      "filter": {
+        "args": [
+          {
+            "value": "option1"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "19"
+    },
+    {
+      "code": "ActionOption2()",
+      "filter": {
+        "args": [
+          {
+            "value": "option2"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "20"
+    },
+    {
+      "code": "ActionOption3()",
+      "filter": {
+        "args": [
+          {
+            "value": "option3"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "21"
+    },
+    {
+      "code": "ActionOption4()",
+      "filter": {
+        "args": [
+          {
+            "value": "option4"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "22"
+    },
+    {
+      "code": "ActionOption9()",
+      "filter": {
+        "args": [
+          {
+            "value": "option9"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "23"
+    },
+    {
+      "code": "ActionOption8()",
+      "filter": {
+        "args": [
+          {
+            "value": "option8"
+          }
+        ],
+        "signature": "actionStart(action)",
+        "slotKey": "-2"
+      },
+      "key": "24"
+    }
+  ],
+  "methods": [],
+  "events": []
+}
